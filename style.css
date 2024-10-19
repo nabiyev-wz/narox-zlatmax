@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=p');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img/background.png");
+  background-size: cover;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.logo {
+    font-family: "Syncopate", sans-serif;
+  font-weight: 800;
+  font-size: 21px;
+  color: #fff;
+}
+.header-big ul {
+  display: flex;
+  align-items: center;
+}
+.header-big ul li {
+    font-family: "Syncopate", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 50px;
+  list-style: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.header-big ul li:hover {
+  background: linear-gradient(to bottom, #8da4ea, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn1 {
+    font-family: "Syncopate", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #8da4ea;
+  padding: 10px 25px;
+  border-top-left-radius: 10px;
+  background: transparent;
+}
+.content h1 {
+    font-family: "Syncopate", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  margin-top: 3%;
+}
+.content h1 span {
+  background: linear-gradient(to bottom, #8da4ea, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content p {
+    font-family: "Syncopate", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 24px;
+  padding: 30px 0px 40px;
+}
+.center-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.content .btn1 span {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(90deg);
+}
+.yer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 37px;
+  position: relative;
+}
+.yer-img::before {
+  content: "";
+  position: absolute;
+  background-image: url("img/globe.png");
+  background-repeat: no-repeat;
+  top: 0px;
+  left: 210px;
+  width: 145px;
+  height: 145px;
+}
+
+.yer-img::after {
+  content: "";
+  position: absolute;
+  background-image: url(img/space-research.png);
+  background-repeat: no-repeat;
+  right: 120px;
+  top: -204px;
+  width: 35%;
+  height: 147%;
+}
